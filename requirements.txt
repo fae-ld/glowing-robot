@@ -1,8 +1,8 @@
-pycaret==3.3.2
-streamlit==1.25.0
+streamlit>=1.26.0
 streamlit-option-menu
 pandas==2.0.3
 huggingface-hub==0.20.3
+pycaret==3.3.2
 scikit-learn==1.4.1
 torch==2.2.1
 regex
