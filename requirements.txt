@@ -1,0 +1,14 @@
+pycaret==3.3.2
+streamlit==1.25.0
+streamlit-option-menu
+pandas==2.0.3
+huggingface-hub==0.20.3
+scikit-learn==1.4.1
+torch==2.2.1
+regex
+stqdm==0.0.5
+sentence-transformers==2.7.0
+transformers==4.38.1
+Pillow==10.2.0
+numpy==1.26.4
+tensorflow==2.16.1

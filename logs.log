@@ -1,0 +1,257 @@
+2025-09-05 14:59:55,379:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:04:48,594:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:09:56,042:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-05 15:09:56,044:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-05 15:09:56,044:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-05 15:09:56,045:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2025-09-05 15:09:56,855:INFO:Initializing load_model()
+2025-09-05 15:09:56,855:INFO:load_model(model_name=/home/fae-ld/.cache/huggingface/hub/models--fae-ld--sentiment-classifier/snapshots/8eb008ff743b60c044ca6ccd9a0474025f9dd667/model.pkl, platform=None, authentication=None, verbose=True)
+2025-09-05 15:10:44,803:INFO:Initializing load_model()
+2025-09-05 15:10:44,803:INFO:load_model(model_name=/home/fae-ld/.cache/huggingface/hub/models--fae-ld--sentiment-classifier/snapshots/8eb008ff743b60c044ca6ccd9a0474025f9dd667/model, platform=None, authentication=None, verbose=True)
+2025-09-05 15:10:52,439:INFO:Initializing predict_model()
+2025-09-05 15:10:52,440:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e392fd150>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e48757ec0>)
+2025-09-05 15:10:52,441:INFO:Checking exceptions
+2025-09-05 15:10:52,441:INFO:Preloading libraries
+2025-09-05 15:10:52,443:INFO:Set up data.
+2025-09-05 15:10:52,458:INFO:Set up index.
+2025-09-05 15:13:44,129:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:13:44,222:INFO:Initializing predict_model()
+2025-09-05 15:13:44,222:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e64d03b90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e4a679940>)
+2025-09-05 15:13:44,222:INFO:Checking exceptions
+2025-09-05 15:13:44,223:INFO:Preloading libraries
+2025-09-05 15:13:44,223:INFO:Set up data.
+2025-09-05 15:13:44,396:INFO:Set up index.
+2025-09-05 15:16:03,949:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:16:04,026:INFO:Initializing predict_model()
+2025-09-05 15:16:04,027:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e39473710>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729f9b396700>)
+2025-09-05 15:16:04,027:INFO:Checking exceptions
+2025-09-05 15:16:04,027:INFO:Preloading libraries
+2025-09-05 15:16:04,029:INFO:Set up data.
+2025-09-05 15:16:04,169:INFO:Set up index.
+2025-09-05 15:16:19,321:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:16:19,386:INFO:Initializing predict_model()
+2025-09-05 15:16:19,386:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e5f6f7e50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e4a6785e0>)
+2025-09-05 15:16:19,386:INFO:Checking exceptions
+2025-09-05 15:16:19,386:INFO:Preloading libraries
+2025-09-05 15:16:19,388:INFO:Set up data.
+2025-09-05 15:16:19,526:INFO:Set up index.
+2025-09-05 15:16:35,172:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:16:35,377:INFO:Initializing predict_model()
+2025-09-05 15:16:35,377:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729f8b13a0d0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e48757380>)
+2025-09-05 15:16:35,378:INFO:Checking exceptions
+2025-09-05 15:16:35,378:INFO:Preloading libraries
+2025-09-05 15:16:35,379:INFO:Set up data.
+2025-09-05 15:16:35,513:INFO:Set up index.
+2025-09-05 15:16:53,680:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:16:53,781:INFO:Initializing predict_model()
+2025-09-05 15:16:53,781:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e5f3a8c90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e48868e00>)
+2025-09-05 15:16:53,781:INFO:Checking exceptions
+2025-09-05 15:16:53,782:INFO:Preloading libraries
+2025-09-05 15:16:53,782:INFO:Set up data.
+2025-09-05 15:16:53,925:INFO:Set up index.
+2025-09-05 15:18:16,369:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:18:16,551:INFO:Initializing predict_model()
+2025-09-05 15:18:16,552:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e394dae90>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e4a678fe0>)
+2025-09-05 15:18:16,552:INFO:Checking exceptions
+2025-09-05 15:18:16,553:INFO:Preloading libraries
+2025-09-05 15:18:16,554:INFO:Set up data.
+2025-09-05 15:18:16,809:INFO:Set up index.
+2025-09-05 15:20:47,718:WARNING:/home/fae-ld/miniconda3/envs/env3.11/lib/python3.11/site-packages/torch/nn/modules/module.py:1762: FutureWarning: `encoder_attention_mask` is deprecated and will be removed in version 4.55.0 for `RobertaSdpaSelfAttention.forward`.
+  return forward_call(*args, **kwargs)
+
+2025-09-05 15:20:47,809:INFO:Initializing predict_model()
+2025-09-05 15:20:47,809:INFO:predict_model(self=<pycaret.classification.oop.ClassificationExperiment object at 0x729e394a4f50>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['admiration', 'amusement', 'anger',
+                                             'annoyance', 'approval', 'caring',
+                                             'confusion', 'curiosity', 'desire',
+                                             'disappointment', 'disapproval',
+                                             'disgust', 'embarrassment',
+                                             'excitement', 'fear', 'gratitude',
+                                             'grief', 'joy', 'love',
+                                             'nervousness', 'optimism', 'pride',
+                                             'realization', '...
+                                             'sadness', 'surprise', 'neutral',
+                                             'emb_0', 'emb_1', ...],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=[],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('normalize', TransformerWrapper(transformer=StandardScaler())),
+                ('trained_model',
+                 MLPClassifier(activation='logistic', alpha=0.1,
+                               hidden_layer_sizes=[50, 50], max_iter=500,
+                               random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x729e4a3e89a0>)
+2025-09-05 15:20:47,809:INFO:Checking exceptions
+2025-09-05 15:20:47,809:INFO:Preloading libraries
+2025-09-05 15:20:47,810:INFO:Set up data.
+2025-09-05 15:20:47,979:INFO:Set up index.
+2025-09-05 15:22:28,499:INFO:Initializing load_model()
+2025-09-05 15:22:28,499:INFO:load_model(model_name=/home/fae-ld/.cache/huggingface/hub/models--fae-ld--sentiment-classifier/snapshots/8eb008ff743b60c044ca6ccd9a0474025f9dd667/model, platform=None, authentication=None, verbose=True)
