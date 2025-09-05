@@ -13,3 +13,4 @@ Pillow==11.3.0
 numpy==1.26.4
 tensorflow==2.20.0
 torchvision==0.22.1
+tf-keras==2.19.0 
